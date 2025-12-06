@@ -42,7 +42,7 @@ export const InfoGrid: React.FC<InfoGridProps> = ({ data }) => {
       <StatSlot 
         icon={Cpu} 
         label="Version" 
-        value={data.version?.name_clean?.split(' ').pop() || 'Bedrock'} 
+        value={(data.version?.name_clean || '').split(' ').pop() || 'Bedrock'} 
       />
       <StatSlot 
         icon={Signal} 
