@@ -1,6 +1,5 @@
 import React from 'react';
 import { ServerStatusResponse } from '../types';
-import { McCard } from './ui/McCard';
 import { Activity, Signal, Users, Cpu } from 'lucide-react';
 
 interface InfoGridProps {

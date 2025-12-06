@@ -5,7 +5,6 @@ import { PlayerList } from './components/PlayerList';
 import { ConnectionActions } from './components/ConnectionActions';
 import { fetchServerStatus } from './services/api';
 import { ServerStatusResponse } from './types';
-import { McCard } from './components/ui/McCard';
 
 // Configuration
 const CONFIG = {

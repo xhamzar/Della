@@ -1,6 +1,6 @@
 import React from 'react';
 import { ServerStatusResponse } from '../types';
-import { Wifi, RefreshCw, Zap } from 'lucide-react';
+import { RefreshCw } from 'lucide-react';
 
 interface ServerHeaderProps {
   data: ServerStatusResponse | null;
